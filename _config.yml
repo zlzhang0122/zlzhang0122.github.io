@@ -1,1 +1,23 @@
-theme: jekyll-theme-minimal
+name: zlzhang0122的个人博客
+title: 个人博客 - zlzhang0122
+permalink: ':title/'
+baseurl: "/"
+url: "zlzhang0122.github.io"
+
+github: zlzhang0122
+
+email: zlzhang0122@gmail.com
+
+discus-identifier: zlzhang0122
+
+paginate: 8
+paginate_path: /page:num/
+
+markdown: kramdown
+gems:
+  - jekyll-feed
+  - jekyll-paginate
+exclude:
+  - Gemfile
+  - Gemfile.lock
+include: [_pages]
