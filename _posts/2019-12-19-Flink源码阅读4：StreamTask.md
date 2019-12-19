@@ -1,6 +1,3 @@
-StreamTask
--------------
-
 在[Flink源码阅读3：StreamOperator](/Flink源码阅读3-StreamOperator/)中已经说到StreamOperator上层是由StreamTask调用的，在Flink中将StreamTask称之为
 Invokable，它是一个抽象类，是所有流式工作任务的基类。
 
