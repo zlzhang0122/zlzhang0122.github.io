@@ -1,5 +1,3 @@
-### SparkConf
-
 SparkConf负责管理Spark的配置相关项，是初始化SparkContext的前提，通过它可以灵活的配置任务运行的各种参数，使程序更快更好的运行。
 
 首先，看下SparkConf类的构造方法。首先它通过import语句从SparkConf的伴生对象中导入配置项，主要用于管理过期的、与旧版本兼容的配置项和日志输出。
