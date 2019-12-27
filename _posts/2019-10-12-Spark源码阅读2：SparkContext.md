@@ -1,7 +1,7 @@
 对Spark有所了解的同学都知道，SparkContext绝对是Spark编程非常重要且经常接触的一个东西，可以说是核心中的核心。它存在于Driver中，是开发Spark应用的入口，
 负责和整个集群的交互，包括申请集群资源、创建RDD、创建累加器和广播变量等。理解Spark的架构就必须从这个入口开始。下图是官网的一张Spark架构图：
 
-![Spark架构图](../assets/img/spark.png "Spark架构图")
+![Spark架构图](../assets/img/spark/spark.png "Spark架构图")
 
 对于该图官网有几点说明：
 
@@ -22,10 +22,10 @@ Spark这样做的好处是，各个Spark应用程序的执行是相互隔离的�
 通过这个参数我们可以自定义提交的参数，这个参数会覆盖系统提供的默认配置。
 
 SparkContext初始化了很多的组件，并且使用其预先定义的私有变量字段维护了其需要初始化的组件的内部状态。下图是SparkContext负责初始化的组件一览：
-![Spark架构图](../assets/img/spark-context.png "SparkContext组件图")
+![Spark架构图](../assets/img/spark/spark-context.png "SparkContext组件图")
 
 下面对这些组件做一些简要的介绍：
-  * SparkConf，这个在[Spark源码阅读1：SparkConf](../master/docs/sparkconf.md)中已经介绍过，它是构造SparkContext时传进来的参数。SparkContext
+  * SparkConf，这个在[Spark源码阅读1：SparkConf](/Spark源码阅读1：SparkConf/)中已经介绍过，它是构造SparkContext时传进来的参数。SparkContext
   会先将传进来的SparkConf克隆一份(此时就理解了为何SparkConf需要继承了Cloneable这个trait)，然后在克隆出的副本上进行校验(主要是应用名和Master的校验)，
   并且添加一些其它的必要的参数(Driver的地址、应用ID等)。克隆出来的SparkConf使得用户不可以再更改配置项，保证了Spark配置在运行时的不可变性。
 
@@ -84,4 +84,4 @@ SparkContext初始化了很多的组件，并且使用其预先定义的私有�
 
 最后的最后，来一张Spark资源调度SchedulerBackend类及相关子类的类图吧：
 
-![SchedulerBackend类图](../assets/img/schedulerbackend.png "SchedulerBackend类图")
+![SchedulerBackend类图](../assets/img/spark/schedulerbackend.png "SchedulerBackend类图")
