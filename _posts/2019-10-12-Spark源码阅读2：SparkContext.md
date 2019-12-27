@@ -59,7 +59,7 @@ SparkContext初始化了很多的组件，并且使用其预先定义的私有�
   * HeartBeatReceiver，这是个心跳接收器，Executor需要定期向Driver发送心跳包来表明自己的存活状态，继承自SparkListener，它通过RpcEnv最终包装成了一个RPC
   终端的引用。Spark集群的节点间涉及到大量的网络通信，心跳只是其中的一个部分，因此RPC框架也是Spark底层的重要组成。
 
-  * SchedulerBackend，负责资源的分配，它为等待运行的Task分配计算资源，并负责Task在Executor上的启动，在不同的部署模式下有不同的SchedulerBackend的实现。
+  * SchedulerBackend，负责资源的分配，它为等待运行的Task分配计算资源，并负责Task在Executor上的启动，不同的部署模式下有不同的SchedulerBackend的实现。
 
   * TaskScheduler，是一个任务调度器，负责提供Task的调度算法，并持有SchedulerBackend的实例，通过SchedulerBackend发挥作用。它通过createTaskScheduler
   方法，可以获得不同资源管理类型或部署类型的调度器，现阶段支持：local本地单线程、local[k]本地k个线程、local[*]本地cpu核数个线程、spark支持
