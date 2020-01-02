@@ -16,7 +16,9 @@ ListenerBus带有两个泛型参数L和E，其中L表示监听器类型，它可
 ListenerBus中还定义了一些与事件总线相关的方法，以下简单的说一下：
   * addListener() & removeListener()方法：分别向事件总线添加事件监听器和移除事件监听器，实现上很简单，就是在并发容器CopyOnWriteArrayList上执行add()
   方法和remove()方法。
+
   * doPostEvent()方法：将事件event投递给监听器listener进行处理，在此处只进行了抽象定义，具体逻辑在其实现类中。
+
   * postToAll()方法：通过doPostEvent()方法，将事件event投递给所有已经注册的监听器，由于它是线程不安全的，因此同时只能被一个线程调用。
 
 SparkListenerBus这个trait是Spark Core内部事件总线的基类，继承于ListenerBus并实现了doPostEvent()方法来对事件进行匹配，并调用监听器的处理方法。如果无法
