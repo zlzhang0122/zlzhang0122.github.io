@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6b3bcd75-ad73-49bc-b81a-c38a2a1d0f68" name="Default" comment="" />
+    <list default="true" id="6b3bcd75-ad73-49bc-b81a-c38a2a1d0f68" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_pages/about.html" afterPath="$PROJECT_DIR$/_pages/about.html" />
+    </list>
     <ignored path="zlzhang0122.github.io.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
@@ -22,11 +24,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="2019-10-25-Spark源码阅读4：LiveListenerBus.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="2019-10-25-Spark源码阅读4：LiveListenerBus.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_posts/2019-10-25-Spark源码阅读4：LiveListenerBus.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="300">
+              <first_editor relative-caret-position="-379">
                 <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
                 <folding />
               </first_editor>
@@ -51,7 +53,7 @@
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
               <first_editor relative-caret-position="446">
-                <caret line="48" column="34" selection-start-line="48" selection-start-column="34" selection-end-line="48" selection-end-column="34" />
+                <caret line="48" column="61" selection-start-line="48" selection-start-column="61" selection-end-line="48" selection-end-column="61" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -66,6 +68,36 @@
               <second_editor>
                 <js_state />
               </second_editor>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="head.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_includes/head.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="sidebar.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_includes/sidebar.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="10" column="109" selection-start-line="10" selection-start-column="57" selection-end-line="10" selection-end-column="109" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="about.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/_pages/about.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="10" column="124" selection-start-line="10" selection-start-column="124" selection-end-line="10" selection-end-column="124" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -88,7 +120,6 @@
         <option value="$PROJECT_DIR$/_includes/sidebar.html" />
         <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/Gemfile.lock" />
-        <option value="$PROJECT_DIR$/_pages/about.html" />
         <option value="$PROJECT_DIR$/_posts/2019-12-17-Flink源码阅读3-StreamOperator.md" />
         <option value="$PROJECT_DIR$/_posts/2019-12-15-Flink源码阅读1:任务提交.md" />
         <option value="$PROJECT_DIR$/_posts/2019-12-15-Flink源码阅读1：任务提交.md" />
@@ -101,8 +132,9 @@
         <option value="$PROJECT_DIR$/_posts/2019-10-12-Spark源码阅读2：SparkContext.md" />
         <option value="$PROJECT_DIR$/assets/css/main.css" />
         <option value="$PROJECT_DIR$/_posts/2019-10-17-Spark源码阅读3：SparkContext其它相关.md" />
-        <option value="$PROJECT_DIR$/_posts/2019-10-31-Spark源码阅读5：SparkEnv初始化.md" />
         <option value="$PROJECT_DIR$/_posts/2019-10-25-Spark源码阅读4：LiveListenerBus.md" />
+        <option value="$PROJECT_DIR$/_posts/2019-10-31-Spark源码阅读5：SparkEnv初始化.md" />
+        <option value="$PROJECT_DIR$/_pages/about.html" />
       </list>
     </option>
   </component>
@@ -814,16 +846,16 @@
       <workItem from="1577433374568" duration="3248000" />
       <workItem from="1577624368291" duration="396000" />
       <workItem from="1577935214581" duration="838000" />
-      <workItem from="1578123967717" duration="1015000" />
+      <workItem from="1578123967717" duration="1214000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19328000" />
+    <option name="totallyTimeSpent" value="19527000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="709" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -1293,13 +1325,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_includes/sidebar.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="109" selection-start-line="10" selection-start-column="57" selection-end-line="10" selection-end-column="109" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_pages/404.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1308,20 +1333,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/_layouts/default.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_pages/about.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_includes/head.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -1507,11 +1518,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2019-10-31-Spark源码阅读5：SparkEnv初始化.md">
+    <entry file="file://$PROJECT_DIR$/_posts/2019-10-25-Spark源码阅读4：LiveListenerBus.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="446">
-            <caret line="48" column="34" selection-start-line="48" selection-start-column="34" selection-end-line="48" selection-end-column="34" />
+          <first_editor relative-caret-position="-379">
+            <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
             <folding />
           </first_editor>
           <second_editor />
@@ -1529,11 +1540,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2019-10-25-Spark源码阅读4：LiveListenerBus.md">
+    <entry file="file://$PROJECT_DIR$/_posts/2019-10-31-Spark源码阅读5：SparkEnv初始化.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="300">
-            <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <first_editor relative-caret-position="446">
+            <caret line="48" column="61" selection-start-line="48" selection-start-column="61" selection-end-line="48" selection-end-column="61" />
             <folding />
           </first_editor>
           <second_editor />
@@ -1548,6 +1559,30 @@
           <second_editor>
             <js_state />
           </second_editor>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_includes/head.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_includes/sidebar.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="109" selection-start-line="10" selection-start-column="57" selection-end-line="10" selection-end-column="109" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_pages/about.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="124" selection-start-line="10" selection-start-column="124" selection-end-line="10" selection-end-column="124" />
+          <folding />
         </state>
       </provider>
     </entry>
