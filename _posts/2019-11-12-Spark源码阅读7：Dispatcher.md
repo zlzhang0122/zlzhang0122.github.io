@@ -9,3 +9,5 @@
 
   * EndpointData：是Dispatcher中的私有内部类，实现很简单，接收三个参数：RPC端点名称、RPC端点实例、端点实例的引用，然后创建一个Inbox的实例，Inbox
   是一个"收件箱"，它存储着对应RPC端点所收到且需要处理的消息，这些消息都继承自InboxMessage特征，且向Inbox发送消息是线程安全的。
+
+上面提到Dispatcher的线程池执行的都是MessageLoop，它是一个内部类，本质上是一个不断循环处理消息的线程。
