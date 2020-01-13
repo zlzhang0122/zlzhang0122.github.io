@@ -35,4 +35,4 @@ Dispatcher的停止是通过调用stop()方法来实现的，它首先会将状�
 对列中放入PoisonPill，杀掉线程池中的所有线程，并关闭线程池。
 
 最后还是用一张图来总结一下Dispatcher的工作流程吧。
-![Dispatcher工作流程](../assets/image/spark/dispatcher.png "Dispatcher工作流程")
+![Dispatcher工作流程](../assets/img/spark/dispatcher.png "Dispatcher工作流程")
