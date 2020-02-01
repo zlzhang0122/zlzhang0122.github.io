@@ -57,7 +57,6 @@ master.sink.servlet.path=/metrics/master/json。拆分的结果就是原key的in
 
 Source是一个非常简单的trait，其中定义了两个方法，sourceName获取度量来源的名称，metricRegistry获取其对应的注册中心。它有多种具体的实现。如下图所示：
 ![Source继承体系](../assets/img/spark/source.png "Source继承体系")
-// todo(假装我是图，真的以后补)
 
 其中executor的度量来源实现ExecutorSource是其中比较常见和重要的，我们以它为重点来简单描述Source的具体实现：ExecutorSource向注册中心注册了很多指标，包
 括与threadpool相关的Guage、与filesystem相关的Guage，Guage是Metrics体系内估计metrics值的工具。还有着大量的计数器用于统计GC、shuffle、serializable
@@ -68,4 +67,3 @@ Sink也是一个比较简单的trait，其中定义了3个方法：start()/stop(
 就会按照pollPeriod和pollUnit指定的时间周期性的轮询METRics值并输出到符合SLF4J规范的日志等。此外，JmxSink可以通过将metrics数据输出到JMX中，从而通过
 JVM可视化工具(如VisualVM)进行查看。而MetricsServlet在上面提到过，可以利用Spark UI内置的Jetty服务输出metrics数据到浏览器。
 ![Sink继承体系](../assets/img/spark/sink.png "Sink继承体")
-// todo(假装我是图，真的以后补)
