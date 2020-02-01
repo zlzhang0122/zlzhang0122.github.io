@@ -1,5 +1,5 @@
-上一节已经讲过了MetricsSystem，今天可以就分析一下与之有密切关联关系的Spark Web UI。Spark Web UI主要依赖于Servlet容器Jetty实现，Jetty就不说了，
-这里主要讲与SparkUI相关的。
+上一节已经讲过了MetricsSystem，今天可以就分析一下与之有密切关联关系的Spark Web UI，这个也是比较简单的一个部分，却是与用户关联很大的一个部分。
+Spark Web UI主要依赖于Servlet容器Jetty实现，Jetty就不说了，这里主要讲与SparkUI相关的。
 
 SparkUI的创建是在SparkContext中，代码为SparkUI.create(Some(this), _statusStore, _conf, _env.securityManager, appName, "", startTime)，
 如果spark.ui.enabled为true，表示启用了SparkUI，则使用上述代码创建。其中，_statusStore是已经初始化的AppStatusStore,它是经过包装的KVStore和
