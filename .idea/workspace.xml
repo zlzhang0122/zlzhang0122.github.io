@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6b3bcd75-ad73-49bc-b81a-c38a2a1d0f68" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/img/spark/spark-runtime.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_posts/2019-10-01-Spark源码阅读0：Start.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_posts/2020-01-17-Spark源码阅读16：RDD.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2019-10-01-Spark源码阅读0：Start.md" afterPath="$PROJECT_DIR$/_posts/2019-10-01-Spark源码阅读0：Start.md" />
     </list>
     <ignored path="zlzhang0122.github.io.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -75,7 +72,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="2019-10-01-Spark源码阅读0：Start.md" pinned="false" current-in-tab="false">
+      <file leaf-file-name="2019-10-01-Spark源码阅读0：Start.md" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/_posts/2019-10-01-Spark源码阅读0：Start.md">
           <provider editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
             <state split_layout="SPLIT">
@@ -90,8 +87,8 @@
           </provider>
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="105">
-                <caret line="7" column="33" selection-start-line="7" selection-start-column="33" selection-end-line="7" selection-end-column="33" />
+              <first_editor relative-caret-position="330">
+                <caret line="22" column="47" selection-start-line="22" selection-start-column="47" selection-end-line="22" selection-end-column="47" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -99,7 +96,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="2020-01-17-Spark源码阅读16：RDD.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="2020-01-17-Spark源码阅读16：RDD.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_posts/2020-01-17-Spark源码阅读16：RDD.md">
           <provider editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
             <state split_layout="SPLIT">
@@ -114,8 +111,8 @@
           </provider>
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="416">
-                <caret line="78" column="14" selection-start-line="78" selection-start-column="14" selection-end-line="78" selection-end-column="14" />
+              <first_editor relative-caret-position="780">
+                <caret line="52" column="28" selection-start-line="52" selection-start-column="28" selection-end-line="52" selection-end-column="28" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -167,8 +164,8 @@
         <option value="$PROJECT_DIR$/_posts/2019-12-26-Spark源码阅读13：HeartbeatReceiver.md" />
         <option value="$PROJECT_DIR$/_posts/2020-01-01-Spark源码阅读14：ExecutorAllocationManager.md" />
         <option value="$PROJECT_DIR$/_posts/2020-01-09-Spark源码阅读15：ContextCleaner.md" />
-        <option value="$PROJECT_DIR$/_posts/2019-10-01-Spark源码阅读0：Start.md" />
         <option value="$PROJECT_DIR$/_posts/2020-01-17-Spark源码阅读16：RDD.md" />
+        <option value="$PROJECT_DIR$/_posts/2019-10-01-Spark源码阅读0：Start.md" />
       </list>
     </option>
   </component>
@@ -380,8 +377,8 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/_posts" />
       <recent name="$PROJECT_DIR$/assets/img/spark" />
+      <recent name="$PROJECT_DIR$/_posts" />
       <recent name="$PROJECT_DIR$/assets/img" />
       <recent name="$PROJECT_DIR$" />
     </key>
@@ -902,12 +899,12 @@
       <workItem from="1580544047111" duration="1811000" />
       <workItem from="1580609853673" duration="965000" />
       <workItem from="1580633492185" duration="1249000" />
-      <workItem from="1580645858921" duration="796000" />
+      <workItem from="1580645858921" duration="1235000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="31253000" />
+    <option name="totallyTimeSpent" value="31692000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="709" extended-state="1" />
@@ -1620,28 +1617,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2019-10-01-Spark源码阅读0：Start.md">
-      <provider editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="0">
-            <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-            <folding />
-          </first_editor>
-          <second_editor>
-            <js_state />
-          </second_editor>
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="105">
-            <caret line="7" column="33" selection-start-line="7" selection-start-column="33" selection-end-line="7" selection-end-column="33" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_posts/2020-01-17-Spark源码阅读16：RDD.md">
       <provider editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="SPLIT">
@@ -1656,8 +1631,30 @@
       </provider>
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="416">
-            <caret line="78" column="14" selection-start-line="78" selection-start-column="14" selection-end-line="78" selection-end-column="14" />
+          <first_editor relative-caret-position="780">
+            <caret line="52" column="28" selection-start-line="52" selection-start-column="28" selection-end-line="52" selection-end-column="28" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2019-10-01-Spark源码阅读0：Start.md">
+      <provider editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor>
+            <js_state />
+          </second_editor>
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="330">
+            <caret line="22" column="47" selection-start-line="22" selection-start-column="47" selection-end-line="22" selection-end-column="47" />
             <folding />
           </first_editor>
           <second_editor />
