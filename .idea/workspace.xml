@@ -2,7 +2,118 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6b3bcd75-ad73-49bc-b81a-c38a2a1d0f68" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_posts/2020-02-08-Spark源码阅读28：BlockManager.md" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Gemfile.lock" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_includes/sidebar.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_layouts/post.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_pages/404.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/css/sass/_normalize.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/css/sass/_syntax.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/css/sass/main.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/fonts/font-awesome/css/font-awesome.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/fonts/font-awesome/fonts/FontAwesome.otf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/fonts/font-awesome/fonts/fontawesome-webfont.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/fonts/font-awesome/fonts/fontawesome-webfont.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/fonts/font-awesome/fonts/fontawesome-webfont.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/fonts/font-awesome/fonts/fontawesome-webfont.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/fonts/font-awesome/fonts/fontawesome-webfont.woff2" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/css/bootstrap.min.css" afterPath="$PROJECT_DIR$/assets/css/bootstrap.min.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/css/colors/color-#40a8bf.scss" afterPath="$PROJECT_DIR$/assets/css/colors/color-#40a8bf.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/css/colors/color-#65bacd.scss" afterPath="$PROJECT_DIR$/assets/css/colors/color-#65bacd.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/css/colors/color-#8bccda.scss" afterPath="$PROJECT_DIR$/assets/css/colors/color-#8bccda.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/css/colors/color-#cccccc.scss" afterPath="$PROJECT_DIR$/assets/css/colors/color-#cccccc.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/css/colors/color-#e6e6e6.scss" afterPath="$PROJECT_DIR$/assets/css/colors/color-#e6e6e6.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/css/font-awesome/HELP-US-OUT.txt" afterPath="$PROJECT_DIR$/assets/css/font-awesome/HELP-US-OUT.txt" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/css/font-awesome/css/font-awesome.css" afterPath="$PROJECT_DIR$/assets/css/font-awesome/css/font-awesome.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/css/font-awesome/css/font-awesome.min.css" afterPath="$PROJECT_DIR$/assets/css/font-awesome/css/font-awesome.min.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/css/font-awesome/fonts/FontAwesome.otf" afterPath="$PROJECT_DIR$/assets/css/font-awesome/fonts/FontAwesome.otf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/css/font-awesome/fonts/fontawesome-webfont.eot" afterPath="$PROJECT_DIR$/assets/css/font-awesome/fonts/fontawesome-webfont.eot" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/css/font-awesome/fonts/fontawesome-webfont.svg" afterPath="$PROJECT_DIR$/assets/css/font-awesome/fonts/fontawesome-webfont.svg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/css/font-awesome/fonts/fontawesome-webfont.ttf" afterPath="$PROJECT_DIR$/assets/css/font-awesome/fonts/fontawesome-webfont.ttf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/css/font-awesome/fonts/fontawesome-webfont.woff" afterPath="$PROJECT_DIR$/assets/css/font-awesome/fonts/fontawesome-webfont.woff" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/css/font-awesome/fonts/fontawesome-webfont.woff2" afterPath="$PROJECT_DIR$/assets/css/font-awesome/fonts/fontawesome-webfont.woff2" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/css/font-awesome/less/animated.less" afterPath="$PROJECT_DIR$/assets/css/font-awesome/less/animated.less" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/css/font-awesome/less/bordered-pulled.less" afterPath="$PROJECT_DIR$/assets/css/font-awesome/less/bordered-pulled.less" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/css/font-awesome/less/core.less" afterPath="$PROJECT_DIR$/assets/css/font-awesome/less/core.less" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/css/font-awesome/less/fixed-width.less" afterPath="$PROJECT_DIR$/assets/css/font-awesome/less/fixed-width.less" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/css/font-awesome/less/font-awesome.less" afterPath="$PROJECT_DIR$/assets/css/font-awesome/less/font-awesome.less" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/css/font-awesome/less/icons.less" afterPath="$PROJECT_DIR$/assets/css/font-awesome/less/icons.less" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/css/font-awesome/less/larger.less" afterPath="$PROJECT_DIR$/assets/css/font-awesome/less/larger.less" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/css/font-awesome/less/list.less" afterPath="$PROJECT_DIR$/assets/css/font-awesome/less/list.less" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/css/font-awesome/less/mixins.less" afterPath="$PROJECT_DIR$/assets/css/font-awesome/less/mixins.less" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/css/font-awesome/less/path.less" afterPath="$PROJECT_DIR$/assets/css/font-awesome/less/path.less" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/css/font-awesome/less/rotated-flipped.less" afterPath="$PROJECT_DIR$/assets/css/font-awesome/less/rotated-flipped.less" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/css/font-awesome/less/screen-reader.less" afterPath="$PROJECT_DIR$/assets/css/font-awesome/less/screen-reader.less" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/css/font-awesome/less/stacked.less" afterPath="$PROJECT_DIR$/assets/css/font-awesome/less/stacked.less" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/css/font-awesome/less/variables.less" afterPath="$PROJECT_DIR$/assets/css/font-awesome/less/variables.less" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/css/font-awesome/scss/_animated.scss" afterPath="$PROJECT_DIR$/assets/css/font-awesome/scss/_animated.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/css/font-awesome/scss/_bordered-pulled.scss" afterPath="$PROJECT_DIR$/assets/css/font-awesome/scss/_bordered-pulled.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/css/font-awesome/scss/_core.scss" afterPath="$PROJECT_DIR$/assets/css/font-awesome/scss/_core.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/css/font-awesome/scss/_fixed-width.scss" afterPath="$PROJECT_DIR$/assets/css/font-awesome/scss/_fixed-width.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/css/font-awesome/scss/_icons.scss" afterPath="$PROJECT_DIR$/assets/css/font-awesome/scss/_icons.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/css/font-awesome/scss/_larger.scss" afterPath="$PROJECT_DIR$/assets/css/font-awesome/scss/_larger.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/css/font-awesome/scss/_list.scss" afterPath="$PROJECT_DIR$/assets/css/font-awesome/scss/_list.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/css/font-awesome/scss/_mixins.scss" afterPath="$PROJECT_DIR$/assets/css/font-awesome/scss/_mixins.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/css/font-awesome/scss/_path.scss" afterPath="$PROJECT_DIR$/assets/css/font-awesome/scss/_path.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/css/font-awesome/scss/_rotated-flipped.scss" afterPath="$PROJECT_DIR$/assets/css/font-awesome/scss/_rotated-flipped.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/css/font-awesome/scss/_screen-reader.scss" afterPath="$PROJECT_DIR$/assets/css/font-awesome/scss/_screen-reader.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/css/font-awesome/scss/_stacked.scss" afterPath="$PROJECT_DIR$/assets/css/font-awesome/scss/_stacked.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/css/font-awesome/scss/_variables.scss" afterPath="$PROJECT_DIR$/assets/css/font-awesome/scss/_variables.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/css/font-awesome/scss/font-awesome.scss" afterPath="$PROJECT_DIR$/assets/css/font-awesome/scss/font-awesome.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/css/main.css" afterPath="$PROJECT_DIR$/assets/css/main.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/css/syntax.css" afterPath="$PROJECT_DIR$/assets/css/syntax.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/images/books/camel-in-action.jpg" afterPath="$PROJECT_DIR$/assets/images/books/camel-in-action.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/images/books/eip.jpg" afterPath="$PROJECT_DIR$/assets/images/books/eip.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/images/books/the-pragmatic-programmer.jpg" afterPath="$PROJECT_DIR$/assets/images/books/the-pragmatic-programmer.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/images/colors.png" afterPath="$PROJECT_DIR$/assets/images/colors.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/images/head.jpg" afterPath="$PROJECT_DIR$/assets/images/head.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/images/posts/ansible-automation-for-highly-available-jboss-fuse-amq-integration-platform/minimal-fuse-amq-ha.png" afterPath="$PROJECT_DIR$/assets/images/posts/ansible-automation-for-highly-available-jboss-fuse-amq-integration-platform/minimal-fuse-amq-ha.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/images/posts/ansible-automation-for-highly-available-jboss-fuse-amq-integration-platform/top.jpg" afterPath="$PROJECT_DIR$/assets/images/posts/ansible-automation-for-highly-available-jboss-fuse-amq-integration-platform/top.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/images/posts/draft/top.jpg" afterPath="$PROJECT_DIR$/assets/images/posts/scalable-network-active-mq-brokers-handing-massive-connections/top.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/images/posts/faster-fuse-integration-service-s2i-openshift-deployments/faster_build.png" afterPath="$PROJECT_DIR$/assets/images/posts/faster-fuse-integration-service-s2i-openshift-deployments/faster_build.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/images/posts/faster-fuse-integration-service-s2i-openshift-deployments/login_nexus.png" afterPath="$PROJECT_DIR$/assets/images/posts/faster-fuse-integration-service-s2i-openshift-deployments/login_nexus.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/images/posts/faster-fuse-integration-service-s2i-openshift-deployments/nexus_proxy_repo.png" afterPath="$PROJECT_DIR$/assets/images/posts/faster-fuse-integration-service-s2i-openshift-deployments/nexus_proxy_repo.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/images/posts/faster-fuse-integration-service-s2i-openshift-deployments/nexus_public_group.png" afterPath="$PROJECT_DIR$/assets/images/posts/faster-fuse-integration-service-s2i-openshift-deployments/nexus_public_group.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/images/posts/faster-fuse-integration-service-s2i-openshift-deployments/nexus_s2i.png" afterPath="$PROJECT_DIR$/assets/images/posts/faster-fuse-integration-service-s2i-openshift-deployments/nexus_s2i.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/images/posts/faster-fuse-integration-service-s2i-openshift-deployments/top.jpg" afterPath="$PROJECT_DIR$/assets/images/posts/faster-fuse-integration-service-s2i-openshift-deployments/top.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/images/posts/fuse-and-data-grid-in-library-mode-with-index-for-searching-and-cache-store/selectemptyandspring.png" afterPath="$PROJECT_DIR$/assets/images/posts/fuse-data-grid-integration-via-hot-rod-with-persistence-and-indexing-for-advanced-queries/selectemptyandspring.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/images/posts/fuse-and-data-grid-in-library-mode-with-index-for-searching-and-cache-store/selectversion.png" afterPath="$PROJECT_DIR$/assets/images/posts/fuse-data-grid-integration-via-hot-rod-with-persistence-and-indexing-for-advanced-queries/selectversion.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/images/posts/fuse-and-data-grid-in-library-mode-with-index-for-searching-and-cache-store/swagger.png" afterPath="$PROJECT_DIR$/assets/images/posts/fuse-data-grid-integration-via-hot-rod-with-persistence-and-indexing-for-advanced-queries/swagger.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/images/posts/fuse-and-data-grid-in-library-mode-with-index-for-searching-and-cache-store/top.jpg" afterPath="$PROJECT_DIR$/assets/images/posts/fuse-data-grid-integration-via-hot-rod-with-persistence-and-indexing-for-advanced-queries/top.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/images/posts/fuse-data-grid-integration-via-hot-rod-with-persistence-and-indexing-for-advanced-queries/diag.png" afterPath="$PROJECT_DIR$/assets/images/posts/fuse-data-grid-integration-via-hot-rod-with-persistence-and-indexing-for-advanced-queries/diag.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/images/posts/fuse-data-grid-integration-via-hot-rod-with-persistence-and-indexing-for-advanced-queries/selectemptyandspring.png" afterPath="$PROJECT_DIR$/assets/images/posts/fuse-and-data-grid-in-library-mode-with-index-for-searching-and-cache-store/selectemptyandspring.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/images/posts/fuse-data-grid-integration-via-hot-rod-with-persistence-and-indexing-for-advanced-queries/selectversion.png" afterPath="$PROJECT_DIR$/assets/images/posts/fuse-and-data-grid-in-library-mode-with-index-for-searching-and-cache-store/selectversion.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/images/posts/fuse-data-grid-integration-via-hot-rod-with-persistence-and-indexing-for-advanced-queries/swagger.png" afterPath="$PROJECT_DIR$/assets/images/posts/fuse-and-data-grid-in-library-mode-with-index-for-searching-and-cache-store/swagger.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/images/posts/fuse-data-grid-integration-via-hot-rod-with-persistence-and-indexing-for-advanced-queries/top.jpg" afterPath="$PROJECT_DIR$/assets/images/posts/fuse-and-data-grid-in-library-mode-with-index-for-searching-and-cache-store/top.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/images/posts/handling-large-streams-of-data-through-http-with-jboss-fuse/process_stream_file_http.png" afterPath="$PROJECT_DIR$/assets/images/posts/handling-large-streams-of-data-through-http-with-jboss-fuse/process_stream_file_http.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/images/posts/handling-large-streams-of-data-through-http-with-jboss-fuse/process_stream_xml_http.png" afterPath="$PROJECT_DIR$/assets/images/posts/handling-large-streams-of-data-through-http-with-jboss-fuse/process_stream_xml_http.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/images/posts/handling-large-streams-of-data-through-http-with-jboss-fuse/top.jpg" afterPath="$PROJECT_DIR$/assets/images/posts/handling-large-streams-of-data-through-http-with-jboss-fuse/top.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/images/posts/openshift-quickstart-in-5-minutes/addApp.png" afterPath="$PROJECT_DIR$/assets/images/posts/openshift-quickstart-in-5-minutes/addApp.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/images/posts/openshift-quickstart-in-5-minutes/deployed.png" afterPath="$PROJECT_DIR$/assets/images/posts/openshift-quickstart-in-5-minutes/deployed.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/images/posts/openshift-quickstart-in-5-minutes/fillTemplate.png" afterPath="$PROJECT_DIR$/assets/images/posts/openshift-quickstart-in-5-minutes/fillTemplate.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/images/posts/openshift-quickstart-in-5-minutes/javaconsole.png" afterPath="$PROJECT_DIR$/assets/images/posts/openshift-quickstart-in-5-minutes/javaconsole.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/images/posts/openshift-quickstart-in-5-minutes/logged.png" afterPath="$PROJECT_DIR$/assets/images/posts/openshift-quickstart-in-5-minutes/logged.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/images/posts/openshift-quickstart-in-5-minutes/podInfo.png" afterPath="$PROJECT_DIR$/assets/images/posts/openshift-quickstart-in-5-minutes/podInfo.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/images/posts/openshift-quickstart-in-5-minutes/runningpod.png" afterPath="$PROJECT_DIR$/assets/images/posts/openshift-quickstart-in-5-minutes/runningpod.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/images/posts/openshift-quickstart-in-5-minutes/top.jpg" afterPath="$PROJECT_DIR$/assets/images/posts/openshift-quickstart-in-5-minutes/top.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/images/posts/quarkus-camel-first-impressions-on-a-game-changing-framework/os-container-jvm-app-stack.svg" afterPath="$PROJECT_DIR$/assets/images/posts/quarkus-camel-first-impressions-on-a-game-changing-framework/os-container-jvm-app-stack.svg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/images/posts/quarkus-camel-first-impressions-on-a-game-changing-framework/quarkus_graphics_v3_bootmem_wide_03.png" afterPath="$PROJECT_DIR$/assets/images/posts/quarkus-camel-first-impressions-on-a-game-changing-framework/quarkus_graphics_v3_bootmem_wide_03.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/images/posts/quarkus-camel-first-impressions-on-a-game-changing-framework/scaling-up.svg" afterPath="$PROJECT_DIR$/assets/images/posts/quarkus-camel-first-impressions-on-a-game-changing-framework/scaling-up.svg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/images/posts/quarkus-camel-first-impressions-on-a-game-changing-framework/top.jpg" afterPath="$PROJECT_DIR$/assets/images/posts/quarkus-camel-first-impressions-on-a-game-changing-framework/top.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/images/posts/quarkus-kafka-camel-servlet-wiring-it-together/top.jpg" afterPath="$PROJECT_DIR$/assets/images/posts/quarkus-kafka-camel-servlet-wiring-it-together/top.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/images/posts/quickstart-rest-microservice-with-spring-boot/choose-simple-project.png" afterPath="$PROJECT_DIR$/assets/images/posts/quickstart-rest-microservice-with-spring-boot/choose-simple-project.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/images/posts/quickstart-rest-microservice-with-spring-boot/consume.png" afterPath="$PROJECT_DIR$/assets/images/posts/quickstart-rest-microservice-with-spring-boot/consume.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/images/posts/quickstart-rest-microservice-with-spring-boot/create-new-application-class.png" afterPath="$PROJECT_DIR$/assets/images/posts/quickstart-rest-microservice-with-spring-boot/create-new-application-class.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/images/posts/quickstart-rest-microservice-with-spring-boot/create-new-maven-project.png" afterPath="$PROJECT_DIR$/assets/images/posts/quickstart-rest-microservice-with-spring-boot/create-new-maven-project.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/images/posts/quickstart-rest-microservice-with-spring-boot/fill-project-infos.png" afterPath="$PROJECT_DIR$/assets/images/posts/quickstart-rest-microservice-with-spring-boot/fill-project-infos.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/images/posts/quickstart-rest-microservice-with-spring-boot/top.jpg" afterPath="$PROJECT_DIR$/assets/images/posts/quickstart-rest-microservice-with-spring-boot/top.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/images/posts/scalable-network-active-mq-brokers-handing-massive-connections/brokernetworkconcentrator.png" afterPath="$PROJECT_DIR$/assets/images/posts/scalable-network-active-mq-brokers-handing-massive-connections/brokernetworkconcentrator.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/images/posts/scalable-network-active-mq-brokers-handing-massive-connections/distributeload.png" afterPath="$PROJECT_DIR$/assets/images/posts/scalable-network-active-mq-brokers-handing-massive-connections/distributeload.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/images/posts/scalable-network-active-mq-brokers-handing-massive-connections/examplenetworkconfig.png" afterPath="$PROJECT_DIR$/assets/images/posts/scalable-network-active-mq-brokers-handing-massive-connections/examplenetworkconfig.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/images/posts/scalable-network-active-mq-brokers-handing-massive-connections/scaledown.png" afterPath="$PROJECT_DIR$/assets/images/posts/scalable-network-active-mq-brokers-handing-massive-connections/scaledown.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/images/posts/scalable-network-active-mq-brokers-handing-massive-connections/top.jpg" afterPath="$PROJECT_DIR$/assets/images/posts/draft/top.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/images/top.jpg" afterPath="$PROJECT_DIR$/assets/images/top.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/js/bootstrap.min.js" afterPath="$PROJECT_DIR$/assets/js/bootstrap.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/js/jquery.min.js" afterPath="$PROJECT_DIR$/assets/js/jquery.min.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="zlzhang0122.github.io.iws" />
@@ -73,7 +184,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="2020-02-08-Spark源码阅读28：BlockManager.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="2020-02-08-Spark源码阅读28：BlockManager.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_posts/2020-02-08-Spark源码阅读28：BlockManager.md">
           <provider editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
             <state split_layout="SPLIT">
@@ -88,11 +199,61 @@
           </provider>
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="-1234">
-                <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <first_editor relative-caret-position="150">
+                <caret line="10" column="43" selection-start-line="10" selection-start-column="43" selection-end-line="10" selection-end-column="43" />
                 <folding />
               </first_editor>
               <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_config.yml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_config.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="settings.yml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_data/settings.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="color-#40a8bf.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/css/colors/color-#40a8bf.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="header.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/_includes/header.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="404.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/404.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -110,7 +271,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/_config.yml" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/_includes/sidebar.html" />
         <option value="$PROJECT_DIR$/_posts/2019-12-17-Flink源码阅读3-StreamOperator.md" />
@@ -155,6 +315,7 @@
         <option value="$PROJECT_DIR$/_posts/2020-02-07-Spark源码阅读27：BlockManagerMaster.md" />
         <option value="$PROJECT_DIR$/_posts/2019-11-20-Spark源码阅读8：NettyRpcEnv.md" />
         <option value="$PROJECT_DIR$/_posts/2020-02-08-Spark源码阅读28：BlockManager.md" />
+        <option value="$PROJECT_DIR$/_config.yml" />
       </list>
     </option>
   </component>
@@ -237,10 +398,6 @@
               <option name="myItemId" value="assets" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="img" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -252,61 +409,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="img" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="spark" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="zlzhang0122.github.io" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="zlzhang0122.github.io" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="zlzhang0122.github.io" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="zlzhang0122.github.io" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="zlzhang0122.github.io" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="zlzhang0122.github.io" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="_posts" />
+              <option name="myItemId" value="_plugins" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -334,6 +437,24 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="_pages" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="projects" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="zlzhang0122.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="zlzhang0122.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="_layouts" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -348,7 +469,21 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="_includes" />
+              <option name="myItemId" value="_drafts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="zlzhang0122.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="zlzhang0122.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="_data" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -366,10 +501,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/_posts" />
-      <recent name="$PROJECT_DIR$/assets/img/spark" />
+      <recent name="$PROJECT_DIR$/_includes" />
+      <recent name="$PROJECT_DIR$/assets" />
       <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/assets/img" />
+      <recent name="$PROJECT_DIR$/assets/img/spark" />
+      <recent name="$PROJECT_DIR$/_posts" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/_posts" />
@@ -908,15 +1044,15 @@
       <workItem from="1581048408041" duration="9000" />
       <workItem from="1581072838458" duration="224000" />
       <workItem from="1581143383456" duration="410000" />
-      <workItem from="1581151247725" duration="1659000" />
+      <workItem from="1581151247725" duration="3263000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="43864000" />
+    <option name="totallyTimeSpent" value="45468000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1280" height="709" extended-state="1" />
+    <frame x="0" y="23" width="1280" height="709" extended-state="0" />
     <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -929,7 +1065,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32148626" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.34814218" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.34814218" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -962,100 +1098,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/assets/img/zagreb_city.jpg" />
-    <entry file="file://$PROJECT_DIR$/assets/img/favicon/apple-touch-icon.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_layouts/post.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_pages/404.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_layouts/default.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="8" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/Flink源码阅读1：任务提交.md">
-      <provider editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="0">
-            <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          </first_editor>
-          <second_editor>
-            <js_state />
-          </second_editor>
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="-882">
-            <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/Flink源码阅读2：数据传递.md">
-      <provider editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="0">
-            <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          </first_editor>
-          <second_editor>
-            <js_state />
-          </second_editor>
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="-417">
-            <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/Flink源码阅读3：StreamOperator.md">
-      <provider editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="0">
-            <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          </first_editor>
-          <second_editor>
-            <js_state />
-          </second_editor>
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="210">
-            <caret line="14" column="52" selection-start-line="14" selection-start-column="52" selection-end-line="14" selection-end-column="52" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_posts/Flink源码阅读4：StreamTask.md">
       <provider editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="SPLIT">
@@ -1493,24 +1535,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Gemfile.lock">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="52" column="13" selection-start-line="52" selection-start-column="13" selection-end-line="52" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Gemfile">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
           <caret line="3" column="11" selection-start-line="3" selection-start-column="5" selection-end-line="3" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_config.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="25" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="25" />
         </state>
       </provider>
     </entry>
@@ -1724,11 +1752,90 @@
       </provider>
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="-1234">
-            <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <first_editor relative-caret-position="150">
+            <caret line="10" column="43" selection-start-line="10" selection-start-column="43" selection-end-line="10" selection-end-column="43" />
             <folding />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_config.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/404.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/colors/color-#40a8bf.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_data/settings.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/css/colors/color-#40a8bf.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/books/camel-in-action.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/books/eip.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/books/the-pragmatic-programmer.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_layouts/post.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_includes/header.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gemfile.lock">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="441">
+          <caret line="52" column="13" selection-start-line="52" selection-start-column="13" selection-end-line="52" selection-end-column="13" />
+          <folding />
         </state>
       </provider>
     </entry>
