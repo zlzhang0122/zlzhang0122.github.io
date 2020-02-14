@@ -22,7 +22,7 @@ Spark这样做的好处是，各个Spark应用程序的执行是相互隔离的�
 通过这个参数我们可以自定义提交的参数，这个参数会覆盖系统提供的默认配置。
 
 SparkContext初始化了很多的组件，并且使用其预先定义的私有变量字段维护了其需要初始化的组件的内部状态。下图是SparkContext负责初始化的组件一览：
-![Spark架构图](../assets/img/spark/spark-context.png "SparkContext组件图")
+![Spark架构图](../assets/img/spark/sparkcontext.png "SparkContext组件图")
 
 下面对这些组件做一些简要的介绍：
   * SparkConf，这个在[Spark源码阅读1：SparkConf](/Spark源码阅读1-SparkConf/)中已经介绍过，它是构造SparkContext时传进来的参数。SparkContext
