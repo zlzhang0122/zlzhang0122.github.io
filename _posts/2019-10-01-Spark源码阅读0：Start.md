@@ -31,10 +31,9 @@ Cluster模式下，Driver的启动过程与Executor类似，运行在资源调�
 结合我个人的理解加上网上有关分析，我个人觉得Spark Core可以分成如下部分：
   * Spark基础组件：包括SparkConf、SparkContext、SparkEnv、RpcEnv、SparkUI、MetricsSystem、HeartbeatReceiver等;
 
-  * Spark内存管理：包括MemoryManager、MemoryPool、MemoryStore、StaticMemoryManager、UnifiedMemoryManager等;
+    * Spark内存管理：包括MemoryManager、MemoryPool、MemoryStore、StaticMemoryManager、UnifiedMemoryManager等;
 
-  * Spark存储体系：包括BroadcastManager、SerializerManager、ShuffleManager、BlockTransferService、BlockManagerMaster、BlockManager、
-  CacheManager等;
+    * Spark存储体系：包括BroadcastManager、SerializerManager、BlockTransferService、BlockManagerMaster、BlockManager等;
 
-  * Spark的运算体系：包括LiveListenerBus、MapOutputTracker、DAGScheduler、TaskScheduler、ExecutorAllocationManager、OutputCommitCoordinator、
-  ContextCleaner等;
+    * Spark的运算体系：包括LiveListenerBus、ExecutorAllocationManager、ContextCleaner、RDD、Dependency、Checkpoint、DAGScheduler、
+    TaskScheduler等;
