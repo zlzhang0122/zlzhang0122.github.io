@@ -110,3 +110,5 @@ getOrElseUpdate()方法能同时读写数据，上面介绍的都是其中的涉
 
 至此基本将BlockManager类的关键代码分析得差不多了，用一张图总结下上面的关于块数据读写的介绍吧：
 ![BlockBlockManager读写](../assets/img/spark/blockmanager.png "BlockManager读写")
+
+今天看的源码有点长，实在是太累了，而且不能出去真是闷得太发慌了！！！

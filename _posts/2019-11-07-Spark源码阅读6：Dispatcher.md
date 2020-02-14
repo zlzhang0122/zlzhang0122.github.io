@@ -1,4 +1,4 @@
-在[Spark源码阅读6：RpcEnv](/Spark源码阅读6-RpcEnv/)中已经介绍过，Dispatcher是NettyRpcEnv中所包含的组件，用于将消息路由到正确的RPC端点。
+在[Spark源码阅读5：RpcEnv](/Spark源码阅读5-RpcEnv/)中已经介绍过，Dispatcher是NettyRpcEnv中所包含的组件，用于将消息路由到正确的RPC端点。
 它里面的属性不是很多，但是比较重要，我们一个一个的看一看：
   * endpoints/endpointRefs：这是两个ConcurrentHashMap，分别用来维护RPC端点名称与端点数据EndpointData的映射，以及RPC端点与其引用的映射。
 
