@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6b3bcd75-ad73-49bc-b81a-c38a2a1d0f68" name="Default" comment="" />
+    <list default="true" id="6b3bcd75-ad73-49bc-b81a-c38a2a1d0f68" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/img/spark/shufflemanager.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_posts/2020-02-18-Spark源码阅读34：Shuffle.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="zlzhang0122.github.io.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
@@ -24,15 +28,6 @@
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="2020-03-21-Flink源码阅读9：CAP和BASE理论.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_posts/2020-03-21-Flink源码阅读9：CAP和BASE理论.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="FIRST">
-              <first_editor relative-caret-position="0">
-                <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-                <folding />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
           <provider editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
             <state split_layout="SPLIT">
               <first_editor relative-caret-position="0">
@@ -42,21 +37,21 @@
               <second_editor>
                 <js_state />
               </second_editor>
+            </state>
+          </provider>
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="FIRST">
+              <first_editor relative-caret-position="0">
+                <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+                <folding />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="2020-02-20-Flink源码阅读1：任务提交.md" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/_posts/2020-02-20-Flink源码阅读1：任务提交.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="FIRST">
-              <first_editor relative-caret-position="270">
-                <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-                <folding />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
+      <file leaf-file-name="2020-03-22-Flink源码阅读10：流分区器.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_posts/2020-03-22-Flink源码阅读10：流分区器.md">
           <provider editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
             <state split_layout="SPLIT">
               <first_editor relative-caret-position="0">
@@ -66,6 +61,39 @@
               <second_editor>
                 <js_state />
               </second_editor>
+            </state>
+          </provider>
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="FIRST">
+              <first_editor relative-caret-position="45">
+                <caret line="3" column="31" selection-start-line="3" selection-start-column="31" selection-end-line="3" selection-end-column="31" />
+                <folding />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="2020-02-18-Spark源码阅读34：Shuffle.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/_posts/2020-02-18-Spark源码阅读34：Shuffle.md">
+          <provider editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="0">
+                <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+                <folding />
+              </first_editor>
+              <second_editor>
+                <js_state />
+              </second_editor>
+            </state>
+          </provider>
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="FIRST">
+              <first_editor relative-caret-position="-364">
+                <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+                <folding />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -83,8 +111,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Gemfile.lock" />
-        <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/_posts/2020-02-01-Spark源码阅读23：UnifiedMemoryManager.md" />
         <option value="$PROJECT_DIR$/_posts/2020-02-02-Spark源码阅读24：MemoryStore.md" />
         <option value="$PROJECT_DIR$/_posts/2020-02-04-Spark源码阅读23：DiskBlockManager.md" />
@@ -134,6 +160,8 @@
         <option value="$PROJECT_DIR$/_posts/2020-03-14-Flink源码阅读6：两阶段提交.md" />
         <option value="$PROJECT_DIR$/_posts/2020-03-21-Flink源码阅读9：CAP和BASE理论.md" />
         <option value="$PROJECT_DIR$/_posts/2020-02-20-Flink源码阅读1：任务提交.md" />
+        <option value="$PROJECT_DIR$/_posts/2020-03-22-Flink源码阅读10：流分区器.md" />
+        <option value="$PROJECT_DIR$/_posts/2020-02-18-Spark源码阅读34：Shuffle.md" />
       </list>
     </option>
   </component>
@@ -182,6 +210,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -217,6 +248,10 @@
               <option name="myItemId" value="img" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spark" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -233,10 +268,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="img" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="flink" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -270,9 +301,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -285,9 +313,9 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/assets/img/flink" />
-      <recent name="$PROJECT_DIR$/_posts" />
       <recent name="$PROJECT_DIR$/assets/img/spark" />
+      <recent name="$PROJECT_DIR$/_posts" />
+      <recent name="$PROJECT_DIR$/assets/img/flink" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/assets/img" />
     </key>
@@ -859,15 +887,17 @@
       <workItem from="1584804682101" duration="185000" />
       <workItem from="1584843057576" duration="119000" />
       <workItem from="1584843198833" duration="104000" />
+      <workItem from="1584869757828" duration="238000" />
+      <workItem from="1584881390745" duration="160000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="76003000" />
+    <option name="totallyTimeSpent" value="76401000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1280" height="709" extended-state="0" />
-    <editor active="true" />
+    <frame x="0" y="23" width="1280" height="709" extended-state="1" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -939,19 +969,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/_posts/2020-01-26-Spark源码阅读18：Checkpoint.md" />
-    <entry file="file://$PROJECT_DIR$/assets/img/spark/memory.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Gemfile.lock">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="52" column="13" selection-start-line="52" selection-start-column="13" selection-end-line="52" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Gemfile">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
@@ -967,6 +984,16 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/_posts/2019-10-17-Spark源码阅读3：SparkContext其它相关.md">
+      <provider editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          </first_editor>
+          <second_editor>
+            <js_state />
+          </second_editor>
+        </state>
+      </provider>
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
           <first_editor relative-caret-position="-814">
@@ -975,6 +1002,8 @@
           <second_editor />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2019-11-20-Spark源码阅读8：SparkWebUI.md">
       <provider editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="0">
@@ -985,8 +1014,6 @@
           </second_editor>
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2019-11-20-Spark源码阅读8：SparkWebUI.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
           <first_editor relative-caret-position="-319">
@@ -995,6 +1022,8 @@
           <second_editor />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2019-11-28-Spark源码阅读9：MetricsSystem.md">
       <provider editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="0">
@@ -1005,8 +1034,6 @@
           </second_editor>
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2019-11-28-Spark源码阅读9：MetricsSystem.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
           <first_editor relative-caret-position="416">
@@ -1015,6 +1042,8 @@
           <second_editor />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2019-12-09-Spark源码阅读11：MemoryManage.md">
       <provider editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="0">
@@ -1025,8 +1054,6 @@
           </second_editor>
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2019-12-09-Spark源码阅读11：MemoryManage.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
           <first_editor relative-caret-position="431">
@@ -1035,6 +1062,8 @@
           <second_editor />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2019-12-15-Spark源码阅读12：StaticMemoryManager.md">
       <provider editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="0">
@@ -1045,8 +1074,6 @@
           </second_editor>
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2019-12-15-Spark源码阅读12：StaticMemoryManager.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
           <first_editor relative-caret-position="540">
@@ -1055,6 +1082,8 @@
           <second_editor />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2019-12-23-Spark源码阅读13：UnifiedMemoryManager.md">
       <provider editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="0">
@@ -1065,8 +1094,6 @@
           </second_editor>
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2019-12-23-Spark源码阅读13：UnifiedMemoryManager.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
           <first_editor relative-caret-position="146">
@@ -1075,6 +1102,8 @@
           <second_editor />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2020-01-17-Spark源码阅读16：SerializerManager.md">
       <provider editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="0">
@@ -1085,8 +1114,6 @@
           </second_editor>
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2020-01-17-Spark源码阅读16：SerializerManager.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
           <first_editor relative-caret-position="446">
@@ -1095,6 +1122,8 @@
           <second_editor />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2020-01-09-Spark源码阅读15：Broadcast.md">
       <provider editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="0">
@@ -1105,8 +1134,6 @@
           </second_editor>
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2020-01-09-Spark源码阅读15：Broadcast.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
           <first_editor relative-caret-position="431">
@@ -1115,6 +1142,8 @@
           <second_editor />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2020-01-01-Spark源码阅读14：MemoryStore.md">
       <provider editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="0">
@@ -1125,36 +1154,16 @@
           </second_editor>
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2020-01-01-Spark源码阅读14：MemoryStore.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
           <first_editor relative-caret-position="0">
             <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           </first_editor>
           <second_editor />
-        </state>
-      </provider>
-      <provider editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="0">
-            <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          </first_editor>
-          <second_editor>
-            <js_state />
-          </second_editor>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/_posts/2020-01-24-Spark源码阅读17：Block.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="0">
-            <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
       <provider editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="0">
@@ -1165,8 +1174,26 @@
           </second_editor>
         </state>
       </provider>
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/_posts/2020-01-25-Spark源码阅读18：BlockInfoManager.md">
+      <provider editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          </first_editor>
+          <second_editor>
+            <js_state />
+          </second_editor>
+        </state>
+      </provider>
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
           <first_editor relative-caret-position="-184">
@@ -1175,6 +1202,8 @@
           <second_editor />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2020-01-26-Spark源码阅读19：DiskBlockManager.md">
       <provider editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="0">
@@ -1185,8 +1214,6 @@
           </second_editor>
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2020-01-26-Spark源码阅读19：DiskBlockManager.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
           <first_editor relative-caret-position="-94">
@@ -1195,6 +1222,8 @@
           <second_editor />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2020-01-27-Spark源码阅读20：DiskStore.md">
       <provider editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="0">
@@ -1205,8 +1234,6 @@
           </second_editor>
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2020-01-27-Spark源码阅读20：DiskStore.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
           <first_editor relative-caret-position="-124">
@@ -1215,6 +1242,8 @@
           <second_editor />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2020-01-29-Spark源码阅读21：BlockManagerMaster.md">
       <provider editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="0">
@@ -1225,8 +1254,6 @@
           </second_editor>
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2020-01-29-Spark源码阅读21：BlockManagerMaster.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
           <first_editor relative-caret-position="-259">
@@ -1235,6 +1262,8 @@
           <second_editor />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2020-01-31-Spark源码阅读22：BlockManager.md">
       <provider editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="0">
@@ -1245,8 +1274,6 @@
           </second_editor>
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2020-01-31-Spark源码阅读22：BlockManager.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
           <first_editor relative-caret-position="1695">
@@ -1255,6 +1282,8 @@
           <second_editor />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2019-12-03-Spark源码阅读10：HeartbeatReceiver.md">
       <provider editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="0">
@@ -1265,8 +1294,6 @@
           </second_editor>
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2019-12-03-Spark源码阅读10：HeartbeatReceiver.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
           <first_editor relative-caret-position="135">
@@ -1275,6 +1302,8 @@
           <second_editor />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2020-02-01-Spark源码阅读23：LiveListenerBus.md">
       <provider editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="0">
@@ -1285,8 +1314,6 @@
           </second_editor>
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2020-02-01-Spark源码阅读23：LiveListenerBus.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
           <first_editor relative-caret-position="0">
@@ -1295,6 +1322,8 @@
           <second_editor />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2020-02-02-Spark源码阅读24：ExecutorAllocationManager.md">
       <provider editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="0">
@@ -1305,8 +1334,6 @@
           </second_editor>
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2020-02-02-Spark源码阅读24：ExecutorAllocationManager.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
           <first_editor relative-caret-position="15">
@@ -1315,6 +1342,8 @@
           <second_editor />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2020-02-04-Spark源码阅读25：ContextCleaner.md">
       <provider editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="0">
@@ -1325,8 +1354,6 @@
           </second_editor>
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2020-02-04-Spark源码阅读25：ContextCleaner.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
           <first_editor relative-caret-position="-19">
@@ -1335,6 +1362,8 @@
           <second_editor />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2019-11-12-Spark源码阅读7：NettyRpcEnv.md">
       <provider editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="0">
@@ -1345,8 +1374,6 @@
           </second_editor>
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2019-11-12-Spark源码阅读7：NettyRpcEnv.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
           <first_editor relative-caret-position="251">
@@ -1355,6 +1382,8 @@
           <second_editor />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2019-11-07-Spark源码阅读6：Dispatcher.md">
       <provider editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="0">
@@ -1365,8 +1394,6 @@
           </second_editor>
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2019-11-07-Spark源码阅读6：Dispatcher.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
           <first_editor relative-caret-position="0">
@@ -1375,6 +1402,8 @@
           <second_editor />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2019-10-31-Spark源码阅读5：RpcEnv.md">
       <provider editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="0">
@@ -1385,8 +1414,6 @@
           </second_editor>
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2019-10-31-Spark源码阅读5：RpcEnv.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
           <first_editor relative-caret-position="30">
@@ -1395,6 +1422,8 @@
           <second_editor />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2019-10-25-Spark源码阅读4：SparkEnv初始化.md">
       <provider editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="0">
@@ -1405,8 +1434,6 @@
           </second_editor>
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2019-10-25-Spark源码阅读4：SparkEnv初始化.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
           <first_editor relative-caret-position="444">
@@ -1415,6 +1442,8 @@
           <second_editor />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2019-10-12-Spark源码阅读2：SparkContext主要组件.md">
       <provider editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="0">
@@ -1425,8 +1454,6 @@
           </second_editor>
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2019-10-12-Spark源码阅读2：SparkContext主要组件.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
           <first_editor relative-caret-position="110">
@@ -1435,6 +1462,8 @@
           <second_editor />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2019-10-01-Spark源码阅读0：Start.md">
       <provider editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="0">
@@ -1445,8 +1474,6 @@
           </second_editor>
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2019-10-01-Spark源码阅读0：Start.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
           <first_editor relative-caret-position="446">
@@ -1455,6 +1482,9 @@
           <second_editor />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2020-02-11-Spark源码阅读31：Stage的划分.md" />
+    <entry file="file://$PROJECT_DIR$/_posts/2020-02-09-Spark源码阅读29：应用程序提交.md">
       <provider editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="0">
@@ -1465,9 +1495,6 @@
           </second_editor>
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2020-02-11-Spark源码阅读31：Stage的划分.md" />
-    <entry file="file://$PROJECT_DIR$/_posts/2020-02-09-Spark源码阅读29：应用程序提交.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
           <first_editor relative-caret-position="315">
@@ -1476,6 +1503,8 @@
           <second_editor />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2020-02-10-Spark源码阅读30：Spark任务提交.md">
       <provider editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="0">
@@ -1486,8 +1515,6 @@
           </second_editor>
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2020-02-10-Spark源码阅读30：Spark任务提交.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
           <first_editor relative-caret-position="446">
@@ -1496,6 +1523,8 @@
           <second_editor />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2020-02-11-Spark源码阅读31：Stage提交.md">
       <provider editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="0">
@@ -1506,24 +1535,12 @@
           </second_editor>
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2020-02-11-Spark源码阅读31：Stage提交.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
           <first_editor relative-caret-position="900">
             <caret line="60" column="104" selection-start-line="60" selection-start-column="104" selection-end-line="60" selection-end-column="104" />
           </first_editor>
           <second_editor />
-        </state>
-      </provider>
-      <provider editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="0">
-            <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          </first_editor>
-          <second_editor>
-            <js_state />
-          </second_editor>
         </state>
       </provider>
     </entry>
@@ -1535,6 +1552,16 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/_posts/2019-10-05-Spark源码阅读1：SparkConf.md">
+      <provider editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          </first_editor>
+          <second_editor>
+            <js_state />
+          </second_editor>
+        </state>
+      </provider>
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
           <first_editor relative-caret-position="210">
@@ -1543,6 +1570,8 @@
           <second_editor />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2020-02-16-Spark-RPC实战.md">
       <provider editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="0">
@@ -1553,8 +1582,6 @@
           </second_editor>
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2020-02-16-Spark-RPC实战.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
           <first_editor relative-caret-position="446">
@@ -1563,6 +1590,8 @@
           <second_editor />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2020-02-06-Spark源码阅读26：RDD.md">
       <provider editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="0">
@@ -1573,8 +1602,6 @@
           </second_editor>
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2020-02-06-Spark源码阅读26：RDD.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
           <first_editor relative-caret-position="780">
@@ -1583,6 +1610,8 @@
           <second_editor />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2020-02-07-Spark源码阅读27：Dependency.md">
       <provider editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="0">
@@ -1593,8 +1622,6 @@
           </second_editor>
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2020-02-07-Spark源码阅读27：Dependency.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
           <first_editor relative-caret-position="270">
@@ -1603,6 +1630,8 @@
           <second_editor />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2020-02-08-Spark源码阅读28：Checkpoint.md">
       <provider editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="0">
@@ -1613,8 +1642,6 @@
           </second_editor>
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2020-02-08-Spark源码阅读28：Checkpoint.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
           <first_editor relative-caret-position="0">
@@ -1623,6 +1650,8 @@
           <second_editor />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2020-02-22-Flink源码阅读2：数据传递.md">
       <provider editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="0">
@@ -1633,8 +1662,6 @@
           </second_editor>
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2020-02-22-Flink源码阅读2：数据传递.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
           <first_editor relative-caret-position="300">
@@ -1643,6 +1670,8 @@
           <second_editor />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2020-02-27-Flink源码阅读3：StreamOperator.md">
       <provider editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="0">
@@ -1653,8 +1682,6 @@
           </second_editor>
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2020-02-27-Flink源码阅读3：StreamOperator.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
           <first_editor relative-caret-position="210">
@@ -1663,6 +1690,8 @@
           <second_editor />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2020-03-07-Flink源码阅读4：StreamTask.md">
       <provider editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="0">
@@ -1673,8 +1702,6 @@
           </second_editor>
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2020-03-07-Flink源码阅读4：StreamTask.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
           <first_editor relative-caret-position="75">
@@ -1683,6 +1710,8 @@
           <second_editor />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2020-03-08-Flink源码阅读5：Java泛型类型擦除和Flink类型暗示.md">
       <provider editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="0">
@@ -1693,24 +1722,12 @@
           </second_editor>
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2020-03-08-Flink源码阅读5：Java泛型类型擦除和Flink类型暗示.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
           <first_editor relative-caret-position="0">
             <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           </first_editor>
           <second_editor />
-        </state>
-      </provider>
-      <provider editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="0">
-            <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          </first_editor>
-          <second_editor>
-            <js_state />
-          </second_editor>
         </state>
       </provider>
       <provider editor-type-id="text-editor">
@@ -1720,103 +1737,106 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/_posts/2020-03-15-Flink源码阅读7：分布式快照.md">
+      <provider editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          </first_editor>
+          <second_editor>
+            <js_state />
+          </second_editor>
+        </state>
+      </provider>
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
           <first_editor relative-caret-position="1230">
             <caret line="82" column="32" selection-start-line="82" selection-start-column="16" selection-end-line="82" selection-end-column="32" />
-            <folding />
           </first_editor>
           <second_editor />
-        </state>
-      </provider>
-      <provider editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="0">
-            <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-            <folding />
-          </first_editor>
-          <second_editor>
-            <js_state />
-          </second_editor>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/_posts/2020-03-14-Flink源码阅读6：两阶段提交.md">
+      <provider editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          </first_editor>
+          <second_editor>
+            <js_state />
+          </second_editor>
+        </state>
+      </provider>
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
           <first_editor relative-caret-position="600">
             <caret line="40" column="11" selection-start-line="40" selection-start-column="11" selection-end-line="40" selection-end-column="11" />
-            <folding />
           </first_editor>
           <second_editor />
-        </state>
-      </provider>
-      <provider editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="0">
-            <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-            <folding />
-          </first_editor>
-          <second_editor>
-            <js_state />
-          </second_editor>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/_posts/2020-02-15-Spark源码阅读33：Task运行.md">
+      <provider editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          </first_editor>
+          <second_editor>
+            <js_state />
+          </second_editor>
+        </state>
+      </provider>
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
           <first_editor relative-caret-position="0">
             <caret line="0" column="22" selection-start-line="0" selection-start-column="22" selection-end-line="0" selection-end-column="42" />
-            <folding />
           </first_editor>
           <second_editor />
-        </state>
-      </provider>
-      <provider editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="0">
-            <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-            <folding />
-          </first_editor>
-          <second_editor>
-            <js_state />
-          </second_editor>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/_posts/2020-02-13-Spark源码阅读32：Task调度.md">
+      <provider editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          </first_editor>
+          <second_editor>
+            <js_state />
+          </second_editor>
+        </state>
+      </provider>
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
           <first_editor relative-caret-position="1665">
             <caret line="111" column="0" selection-start-line="111" selection-start-column="0" selection-end-line="111" selection-end-column="0" />
-            <folding />
           </first_editor>
           <second_editor />
-        </state>
-      </provider>
-      <provider editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="0">
-            <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-            <folding />
-          </first_editor>
-          <second_editor>
-            <js_state />
-          </second_editor>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/_posts/2020-03-17-Flink源码阅读8：窗口触发器.md">
+      <provider editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          </first_editor>
+          <second_editor>
+            <js_state />
+          </second_editor>
+        </state>
+      </provider>
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
           <first_editor relative-caret-position="0">
             <caret line="0" column="5" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="5" />
-            <folding />
           </first_editor>
           <second_editor />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2020-03-21-Flink源码阅读9：CAP和BASE理论.md">
       <provider editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="0">
@@ -1828,8 +1848,6 @@
           </second_editor>
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2020-03-21-Flink源码阅读9：CAP和BASE理论.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
           <first_editor relative-caret-position="0">
@@ -1839,6 +1857,8 @@
           <second_editor />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2020-02-20-Flink源码阅读1：任务提交.md">
       <provider editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="0">
@@ -1850,8 +1870,6 @@
           </second_editor>
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2020-02-20-Flink源码阅读1：任务提交.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
           <first_editor relative-caret-position="270">
@@ -1861,6 +1879,8 @@
           <second_editor />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2020-03-22-Flink源码阅读10：流分区器.md">
       <provider editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="0">
@@ -1870,6 +1890,42 @@
           <second_editor>
             <js_state />
           </second_editor>
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="45">
+            <caret line="3" column="31" selection-start-line="3" selection-start-column="31" selection-end-line="3" selection-end-column="31" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/img/spark/shufflemanager.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2020-02-18-Spark源码阅读34：Shuffle.md">
+      <provider editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor>
+            <js_state />
+          </second_editor>
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="-364">
+            <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
