@@ -362,6 +362,7 @@
       <workItem from="1589291773069" duration="188000" />
       <workItem from="1589467318804" duration="715000" />
       <workItem from="1591603716622" duration="135000" />
+      <workItem from="1597804007677" duration="124000" />
     </task>
     <servers />
   </component>
@@ -375,5 +376,11 @@
     <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
       <collection />
     </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="341" y="132" width="598" height="490" key="find.popup" timestamp="1597804058647">
+      <screen x="0" y="23" width="1280" height="709" />
+    </state>
+    <state x="341" y="132" width="598" height="490" key="find.popup/0.23.1280.709@0.23.1280.709" timestamp="1597804058647" />
   </component>
 </project>
