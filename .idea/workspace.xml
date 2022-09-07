@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6b3bcd75-ad73-49bc-b81a-c38a2a1d0f68" name="Default" comment="" />
+    <list default="true" id="6b3bcd75-ad73-49bc-b81a-c38a2a1d0f68" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -40,16 +42,16 @@
     <property name="settings.editor.splitter.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/assets/img/flink" />
+      <recent name="$PROJECT_DIR$/_posts" />
+      <recent name="$PROJECT_DIR$/assets/img" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/_posts" />
       <recent name="$PROJECT_DIR$/assets/img/flink" />
       <recent name="$PROJECT_DIR$/assets/img/spark" />
       <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/assets/img" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/assets/img/flink" />
-      <recent name="$PROJECT_DIR$/_posts" />
       <recent name="$PROJECT_DIR$/assets/img" />
     </key>
   </component>
@@ -363,6 +365,8 @@
       <workItem from="1589467318804" duration="715000" />
       <workItem from="1591603716622" duration="135000" />
       <workItem from="1597804007677" duration="124000" />
+      <workItem from="1597825423747" duration="436000" />
+      <workItem from="1662513699936" duration="835000" />
     </task>
     <servers />
   </component>
@@ -378,9 +382,9 @@
     </option>
   </component>
   <component name="WindowStateProjectService">
-    <state x="341" y="132" width="598" height="490" key="find.popup" timestamp="1597804058647">
+    <state x="341" y="132" width="598" height="490" key="find.popup" timestamp="1597825481496">
       <screen x="0" y="23" width="1280" height="709" />
     </state>
-    <state x="341" y="132" width="598" height="490" key="find.popup/0.23.1280.709@0.23.1280.709" timestamp="1597804058647" />
+    <state x="341" y="132" width="598" height="490" key="find.popup/0.23.1280.709@0.23.1280.709" timestamp="1597825481496" />
   </component>
 </project>
