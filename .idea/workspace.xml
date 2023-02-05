@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6b3bcd75-ad73-49bc-b81a-c38a2a1d0f68" name="Default" comment="" />
+    <list default="true" id="6b3bcd75-ad73-49bc-b81a-c38a2a1d0f68" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2022-09-07-源码阅读索引.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2022-09-07-源码阅读索引.md" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -364,7 +367,7 @@
       <workItem from="1591603716622" duration="135000" />
       <workItem from="1597804007677" duration="124000" />
       <workItem from="1597825423747" duration="436000" />
-      <workItem from="1662513699936" duration="1049000" />
+      <workItem from="1662513699936" duration="2758000" />
     </task>
     <servers />
   </component>
@@ -380,9 +383,9 @@
     </option>
   </component>
   <component name="WindowStateProjectService">
-    <state x="341" y="132" width="598" height="490" key="find.popup" timestamp="1597825481496">
-      <screen x="0" y="23" width="1280" height="709" />
+    <state x="285" y="82" key="RollbackChangesDialog" timestamp="1662545072039">
+      <screen x="0" y="25" width="1280" height="702" />
     </state>
-    <state x="341" y="132" width="598" height="490" key="find.popup/0.23.1280.709@0.23.1280.709" timestamp="1597825481496" />
+    <state x="285" y="82" key="RollbackChangesDialog/0.25.1280.702@0.25.1280.702" timestamp="1662545072039" />
   </component>
 </project>
